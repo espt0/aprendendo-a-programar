@@ -3,63 +3,6 @@
 * {
     padding: 10px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-div#corpo {
-    height: 350px;
-    width: 260px;
-    background-color: #808081;
-    border-radius: 10px;
-}
-
-div#tela {
-    height: 40px;
-    width: auto;
-    background-color: #808081;
-    padding: 0px;
-}
-
-input#tela2 {
-    height: 100%;
-    width: 100%;
-    padding: 0px;
-    border: 0px;
-    font-size: 150%;
-    border-radius: 10px;
-}
-
-div#visor {
-    background-color: blueviolet;
-}
-
-div#teclas {
-    background-color: aqua;
-    height: 260px;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-div.tecl {
-    background-color: hsl(0, 0%, 13%);
-    width: 30px;
-    height: 30px;
-    margin: 4px;
-    display: inline-block;
-    border-radius: 3px;
-    text-align: center;
-    color: aliceblue;
-}
-
-div.tecl:active {
-    background-color: #ff4602;
-}
-
-div#resultado {
-    height: 30px;
-    width: 90px;
-}
-
-div#operacoes {
-    display: inline-block;
-    background-color: blue;
-}
